@@ -47,8 +47,7 @@ parser.add_argument('--pretrained_2d', type=bool, default=True,
                     help="load default 2D pretrained model.")
 parser.add_argument('--pretrained_3d', type=str,  default=None,
                     help="load default 3D pretrained model.")
-parser.add_argument('--resume-epoch', type=int, default=-1,
-                    help="resume train")
+
 # optimization
 parser.add_argument('--fine-tune', type=bool, default=False,
                     help="resume training and then fine tune the classifier")
